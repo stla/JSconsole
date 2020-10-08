@@ -10,5 +10,8 @@ JSconsole <- function(){
   if(ctx$validate(code)){
     ctx$eval(code)
     ctx$console()
+  }else{
+    message("Invalid code.")
+    invisible()
   }
 }
