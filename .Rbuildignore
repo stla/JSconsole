@@ -3,3 +3,4 @@
 ^\.V8history$
 ^inst/essais$
 ^inst/screenshots$
+^cran-comments\.md$
